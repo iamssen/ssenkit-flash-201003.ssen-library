@@ -1,0 +1,85 @@
+h1=. aaaaaaa
+
+ㅁㅁㅁㅁ
+
+|_.a|_.a|_.a|_.a|
+|b|b|b|b|
+
+가나다라마바사
+
+
+나나나나나
+
+	ㄸㄸ
+	
+
+	
+<xmp><xxx>가나다</xxx></xmp>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+pre(prettyprint).. <project name="ssen library build" default="03.swc">
+	<property file="ssen-library.properties" />
+	<property name="debug.file" value="${basedir}/output/swf/index.swf" />
+	<path id="wikitext.classpath">
+		<fileset dir="${global.wiki}">
+			<include name="org.eclipse.mylyn.wikitext.*core*.jar" />
+		</fileset>
+	</path>
+	<taskdef classpathref="wikitext.classpath" resource="org/eclipse/mylyn/wikitext/core/util/anttask/tasks.properties" />
+
+	<target name="02.asdoc">
+		<delete dir="${output.asdoc}" failOnError="false" includeEmptyDirs="true" />
+		<mkdir dir="${output.asdoc}" />
+
+		<exec executable="${global.exe.asdoc}">
+			<arg line='-source-path ${project.src}' />
+			<arg line='-doc-sources ${project.src}' />
+			<arg line="-library-path ${project.lib}" />
+			<arg line="-library-path ${global.lib.pure}" />
+			<arg line="-library-path ${global.lib.mx}" />
+			<arg line='-window-title "elle asdoc"' />
+			<arg line='-main-title "elle asdoc"' />
+			<arg line='-output ${output.asdoc}' />
+		</exec>
+	</target>
+
+	<target name="03.swc">
+		<exec executable="${global.exe.compc}">
+			<arg line="-output ${output.swc}/ssen-library.swc" />
+			<arg line="-compiler.library-path ${project.lib}" />
+			<arg line="-compiler.library-path ${global.lib.pure}" />
+			<arg line="-compiler.library-path ${global.lib.mx}" />
+			<arg line="-compiler.source-path ${project.src}" />
+			<arg line="-include-sources ${project.src}" />
+		</exec>
+	</target>
+	<target name="04.libraryToSwc">
+		<exec executable="${global.exe.compc}">
+			<arg line="-output ${project.lib}/library.swc" />
+			<arg line="-compiler.library-path ${project.lib}" />
+			<arg line="-compiler.source-path ${project.src}" />
+			<arg line="-include-sources source/library" />
+		</exec>
+	</target>
+
+p.  가나다라마바
+
+	<target name="05.wikiParse">
+		<wikitext-to-html markupLanguage="Textile" sourceencoding="utf-8">
+			<fileset dir="${project.wiki}">
+				<include name="*.textile" />
+			</fileset>
+			<stylesheet url="wiki.css" />
+			<markuplanguageconfiguration escapinghtmlandxml="true"/>
+		</wikitext-to-html>
+	</target>
+</project>
+
+    나나
+
+p.  가나다
+
+     나나 
+     
+     
+<script type="text/javascript" src="src/prettify.js"></script><script type="text/javascript">prettyPrint();</script>

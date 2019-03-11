@@ -1,0 +1,609 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../prettify.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../print.css" type="text/css" media="print">
+<meta content="CalendarBase,ssen.core.date.CalendarBase,date,firstDayOfWeek,lastdayOfMonth,max,min,checkMinMax,checkMinMaxDate,nextDay,nextMonth,nextWeek,nextYear,preDay,preMonth,preWeek,preYear,setMinMax" name="keywords">
+<title>ssen.core.date.CalendarBase</title>
+<script type="text/javascript" src="../../../prettify.js"></script>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'CalendarBase - elle asdoc';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">elle asdoc</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../index-list.html')" href="../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../index.html?ssen/core/date/CalendarBase.html&amp;ssen/core/date/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;CalendarBase</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#eventSummary">Events</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class CalendarBase"); titleBar_setSubNav(false,true,false,false,true,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">ssen.core.date</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class CalendarBase</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">CalendarBase <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../images/inherit-arrow.gif"> flash.events.EventDispatcher</td>
+</tr>
+</table>
+<p></p>
+  달력을 만드는데 사용되는 핵심 모듈
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#date">date</a> : Date<div class="summaryTableDescription"> Date </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#firstDayOfWeek">firstDayOfWeek</a> : int<div class="summaryTableDescription">[read-only] 현재 달의 첫째 날짜 요일을 반환 </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#lastdayOfMonth">lastdayOfMonth</a> : int<div class="summaryTableDescription">[read-only] 현재 월의 마지막 날짜를 반환 </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#max">max</a> : Date<div class="summaryTableDescription"> 달력이 넘어가서는 안될 최대 범위 </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#min">min</a> : Date<div class="summaryTableDescription"> 달력이 넘어가서는 안될 최소 범위 </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#CalendarBase()">CalendarBase</a>(yearOrTimevalue:Object = null, month:Number = 0, date:Number = 1, min:Date = null, max:Date = null, hour:Number = 0, minute:Number = 0, second:Number = 0, millisecond:Number = 0)</div>
+<div class="summaryTableDescription"> 생성자 </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#checkMinMax()">checkMinMax</a>(autoModify:Boolean = true):Boolean</div>
+<div class="summaryTableDescription"> 
+   현재 시간이 최소, 최대 범위안에 있는지를 체크한다
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#checkMinMaxDate()">checkMinMaxDate</a>(min:Date, max:Date):Boolean</div>
+<div class="summaryTableDescription">
+   현재 시간이 특정한 최소, 최대 범위안에 있는지를 체크한다, 시대등을 체크하거나 한다.</div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#nextDay()">nextDay</a>(much:int = 1):void</div>
+<div class="summaryTableDescription">
+   달력을 다음일로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#nextMonth()">nextMonth</a>(isFirstDay:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   달력을 다음달로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#nextWeek()">nextWeek</a>(isFirstDay:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   달력을 다음주로 넘림
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#nextYear()">nextYear</a>(isFirstMonth:Boolean = false, isFirstDay:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   달력을 다음년으로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#preDay()">preDay</a>(much:int = 1):void</div>
+<div class="summaryTableDescription">
+   달력을 이전일로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#preMonth()">preMonth</a>(isFirstDay:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   달력을 이전달로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#preWeek()">preWeek</a>(isFirstDay:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   달력을 이전주로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#preYear()">preYear</a>(isFirstMonth:Boolean = false, isFirstDay:Boolean = false):void</div>
+<div class="summaryTableDescription">
+   달력을 이전년으로 넘김
+   </div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setMinMax()">setMinMax</a>(min:Date = null, max:Date = null):void</div>
+<div class="summaryTableDescription">
+   달력의 최소, 최대 범위를 셋팅한다.</div>
+</td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+</table>
+</div>
+<a name="eventSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Events</div>
+<table id="summaryTableEvent" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Event</th><th>Summary</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#event:change calendar">change calendar</a>
+</div>
+</td><td class="summaryTableDescription summaryTableCol">
+  ssen.core.events.DateEvent.CHANGE_CALENDAR
+  </td><td class="summaryTableOwnerCol">CalendarBase</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="date"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">date</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>date:Date</code>&nbsp;&nbsp;[read-write]<p> Date </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get date():Date</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set date(value:Date):void</code>
+<br>
+</div>
+<a name="firstDayOfWeek"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">firstDayOfWeek</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>firstDayOfWeek:int</code>&nbsp;&nbsp;[read-only]<p> 현재 달의 첫째 날짜 요일을 반환 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get firstDayOfWeek():int</code>
+<br>
+</div>
+<a name="lastdayOfMonth"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">lastdayOfMonth</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>lastdayOfMonth:int</code>&nbsp;&nbsp;[read-only]<p> 현재 월의 마지막 날짜를 반환 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get lastdayOfMonth():int</code>
+<br>
+</div>
+<a name="max"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">max</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>max:Date</code>&nbsp;&nbsp;[read-write]<p> 달력이 넘어가서는 안될 최대 범위 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get max():Date</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set max(value:Date):void</code>
+<br>
+</div>
+<a name="min"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">min</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>min:Date</code>&nbsp;&nbsp;[read-write]<p> 달력이 넘어가서는 안될 최소 범위 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get min():Date</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set min(value:Date):void</code>
+<br>
+</div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="CalendarBase()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">CalendarBase</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function CalendarBase(yearOrTimevalue:Object = null, month:Number = 0, date:Number = 1, min:Date = null, max:Date = null, hour:Number = 0, minute:Number = 0, second:Number = 0, millisecond:Number = 0)</code><p> 생성자 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">yearOrTimevalue</span>:Object</code> (default = <code>null</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">month</span>:Number</code> (default = <code>0</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">date</span>:Number</code> (default = <code>1</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">min</span>:Date</code> (default = <code>null</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">max</span>:Date</code> (default = <code>null</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">hour</span>:Number</code> (default = <code>0</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">minute</span>:Number</code> (default = <code>0</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">second</span>:Number</code> (default = <code>0</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">millisecond</span>:Number</code> (default = <code>0</code>)<code></code></td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="checkMinMax()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">checkMinMax</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function checkMinMax(autoModify:Boolean = true):Boolean</code><p> 
+   현재 시간이 최소, 최대 범위안에 있는지를 체크한다
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">autoModify</span>:Boolean</code> (default = <code>true</code>)<code></code> &mdash; 자동으로 수정할지 여부
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Boolean</code></td>
+</tr>
+</table>
+</div>
+<a name="checkMinMaxDate()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">checkMinMaxDate</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function checkMinMaxDate(min:Date, max:Date):Boolean</code><p>
+   현재 시간이 특정한 최소, 최대 범위안에 있는지를 체크한다, 시대등을 체크하거나 한다.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">min</span>:Date</code> &mdash; 최소범위
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">max</span>:Date</code> &mdash; 최대범위
+   </td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Boolean</code></td>
+</tr>
+</table>
+</div>
+<a name="nextDay()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">nextDay</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function nextDay(much:int = 1):void</code><p>
+   달력을 다음일로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">much</span>:int</code> (default = <code>1</code>)<code></code> &mdash; 몇일후로 넘길것인가?
+      </td>
+</tr>
+</table>
+</div>
+<a name="nextMonth()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">nextMonth</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function nextMonth(isFirstDay:Boolean = false):void</code><p>
+   달력을 다음달로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstDay</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 날짜를 1일로 바꿀것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="nextWeek()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">nextWeek</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function nextWeek(isFirstDay:Boolean = false):void</code><p>
+   달력을 다음주로 넘림
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstDay</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 날짜를 첫째날인 일요일로 바꿀것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="nextYear()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">nextYear</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function nextYear(isFirstMonth:Boolean = false, isFirstDay:Boolean = false):void</code><p>
+   달력을 다음년으로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstMonth</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 월을 1월로 바꿀것인가?
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstDay</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 날짜를 1일로 바꿀것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="preDay()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">preDay</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function preDay(much:int = 1):void</code><p>
+   달력을 이전일로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">much</span>:int</code> (default = <code>1</code>)<code></code> &mdash; 몇일전으로 넘길것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="preMonth()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">preMonth</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function preMonth(isFirstDay:Boolean = false):void</code><p>
+   달력을 이전달로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstDay</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 날짜를 1일로 바꿀것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="preWeek()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">preWeek</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function preWeek(isFirstDay:Boolean = false):void</code><p>
+   달력을 이전주로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstDay</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 날짜를 첫째날인 일요일로 바꿀것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="preYear()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">preYear</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function preYear(isFirstMonth:Boolean = false, isFirstDay:Boolean = false):void</code><p>
+   달력을 이전년으로 넘김
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstMonth</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 월을 1월로 바꿀것인가?
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">isFirstDay</span>:Boolean</code> (default = <code>false</code>)<code></code> &mdash; 날짜를 1일로 바꿀것인가?
+   </td>
+</tr>
+</table>
+</div>
+<a name="setMinMax()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setMinMax</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function setMinMax(min:Date = null, max:Date = null):void</code><p>
+   달력의 최소, 최대 범위를 셋팅한다.
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">min</span>:Date</code> (default = <code>null</code>)<code></code> &mdash; 최소범위
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">max</span>:Date</code> (default = <code>null</code>)<code></code> &mdash; 최대범위
+   </td>
+</tr>
+</table>
+</div>
+<div class="detailSectionHeader">Event detail</div>
+<a name="event:change calendar"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">change calendar</td><td class="detailHeaderType">event&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<span class="label">Event object type: </span><a href="../events/DateEvent.html"><code>ssen.core.events.DateEvent</code></a>
+<br>
+<p></p><p>
+  ssen.core.events.DateEvent.CHANGE_CALENDAR
+  </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../events/DateEvent.html#CHANGE_CALENDAR" target="">ssen.core.events.DateEvent.CHANGE_CALENDAR</a>
+</div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->

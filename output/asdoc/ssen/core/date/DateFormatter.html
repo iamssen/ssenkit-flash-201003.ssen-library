@@ -1,0 +1,686 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../prettify.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../print.css" type="text/css" media="print">
+<meta content="DateFormatter,ssen.core.date.DateFormatter,A,D,DD,E,EE,EEE,EEEE,H,HH,J,JJ,K,KK,L,LL,M,MM,MMM,MMMM,N,NN,S,SS,YY,YYYY,date,formatting,setA,setEEE,setEEEE,setMMM,setMMMM" name="keywords">
+<title>ssen.core.date.DateFormatter</title>
+<script type="text/javascript" src="../../../prettify.js"></script>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'DateFormatter - elle asdoc';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">elle asdoc</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../index-list.html')" href="../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../index.html?ssen/core/date/DateFormatter.html&amp;ssen/core/date/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;DateFormatter</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class DateFormatter"); titleBar_setSubNav(false,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">ssen.core.date</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class DateFormatter</td>
+</tr>
+</table>
+<p></p>
+  Date 를 특정 형식으로 표현해주는 역활을 한다
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#A">A</a> : String<div class="summaryTableDescription">[read-only] 
+   영문형 오전, 오후 표시 (AM, PM) setA() 를 통해 교체가 가능하다
+   </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#D">D</a> : String<div class="summaryTableDescription">[read-only] 5 자릿수 고정되지 않은 일 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#date">date</a> : Date<div class="summaryTableDescription"> Date 객체 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#DD">DD</a> : String<div class="summaryTableDescription">[read-only] 05 자릿수 고정되지 않은 일 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#E">E</a> : String<div class="summaryTableDescription">[read-only] 0 숫자형의 요일표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#EE">EE</a> : String<div class="summaryTableDescription">[read-only] 00 고정된 숫자의 요일표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#EEE">EEE</a> : String<div class="summaryTableDescription">[read-only] 
+   짧은 영문형 요일 (Sun, Mon ~ Sat) setEEE() 를 통해 교체가 가능하다
+   </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#EEEE">EEEE</a> : String<div class="summaryTableDescription">[read-only] 
+   긴 영문형 요일 (Sunday, Monday ~ Saturday) setEEEE() 를 통해 교체가 가능하다
+   </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#H">H</a> : String<div class="summaryTableDescription">[read-only] 1 ~ 24 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#HH">HH</a> : String<div class="summaryTableDescription">[read-only] 01 ~ 24 고정된 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#J">J</a> : String<div class="summaryTableDescription">[read-only] 0 ~ 23 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#JJ">JJ</a> : String<div class="summaryTableDescription">[read-only] 00 ~ 23 고정된 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#K">K</a> : String<div class="summaryTableDescription">[read-only] 0 ~ 11 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#KK">KK</a> : String<div class="summaryTableDescription">[read-only] 00 ~ 11 고정된 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#L">L</a> : String<div class="summaryTableDescription">[read-only] 1 ~ 12 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#LL">LL</a> : String<div class="summaryTableDescription">[read-only] 01 ~ 12 고정된 시간 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#M">M</a> : String<div class="summaryTableDescription">[read-only] 7 자릿수 고정되지 않은 월 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#MM">MM</a> : String<div class="summaryTableDescription">[read-only] 07 자릿수 고정된 월 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#MMM">MMM</a> : String<div class="summaryTableDescription">[read-only] 
+   짧은 영문형 월 (Jan, Feb ~ Dec) setMMM() 을 통해 교체가 가능하다
+   </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#MMMM">MMMM</a> : String<div class="summaryTableDescription">[read-only] 
+   긴 영문형 월 (January, February ~ December) setMMMM() 을 통해 교체가 가능하다
+   </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#N">N</a> : String<div class="summaryTableDescription">[read-only] 0 ~ 59 분 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#NN">NN</a> : String<div class="summaryTableDescription">[read-only] 0 ~ 59 고정된 분 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#S">S</a> : String<div class="summaryTableDescription">[read-only] 0 ~ 59 초 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#SS">SS</a> : String<div class="summaryTableDescription">[read-only] 0 ~ 59 고정된 초 표시 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#YY">YY</a> : String<div class="summaryTableDescription">[read-only] 80 두자리 년도 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#YYYY">YYYY</a> : String<div class="summaryTableDescription">[read-only] 1980 네자리 년도 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#DateFormatter()">DateFormatter</a>(date:Date)</div>
+<div class="summaryTableDescription"> 생성자 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#formatting()">formatting</a>(date:Date, format:String = "YYYY-MM-DD"):String</div>
+<div class="summaryTableDescription">[static] 포맷팅 문자들을 통해 Date 를 문자열을 포맷팅 한다 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setA()">setA</a>(str:String = "AM|PM"):void</div>
+<div class="summaryTableDescription">[static] 오전, 오후 표시 A 의 문자를 교체할 수 있다 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setEEE()">setEEE</a>(str:String = "Sun|Mon|Tue|Wed|Thu|Fri|Sat"):void</div>
+<div class="summaryTableDescription">[static] 요일 표시 EEE 의 문자를 교체할 수 있다 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setEEEE()">setEEEE</a>(str:String = "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"):void</div>
+<div class="summaryTableDescription">[static] 요일 표시 EEEE 의 문자를 교체할 수 있다 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setMMM()">setMMM</a>(str:String = "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"):void</div>
+<div class="summaryTableDescription">[static] 월 표시 MMM 의 문자를 교체할 수 있다 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#setMMMM()">setMMMM</a>(str:String = "January|February|March|April|May|June|July|August|September|October|November|December"):void</div>
+<div class="summaryTableDescription">[static] 월 표시 MMMM 의 문자를 교체할 수 있다 </div>
+</td><td class="summaryTableOwnerCol">DateFormatter</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="A"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">A</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>A:String</code>&nbsp;&nbsp;[read-only]<p> 
+   영문형 오전, 오후 표시 (AM, PM) setA() 를 통해 교체가 가능하다
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get A():String</code>
+<br>
+</div>
+<a name="D"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">D</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>D:String</code>&nbsp;&nbsp;[read-only]<p> 5 자릿수 고정되지 않은 일 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get D():String</code>
+<br>
+</div>
+<a name="date"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">date</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>date:Date</code>&nbsp;&nbsp;[read-write]<p> Date 객체 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get date():Date</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set date(value:Date):void</code>
+<br>
+</div>
+<a name="DD"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DD</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>DD:String</code>&nbsp;&nbsp;[read-only]<p> 05 자릿수 고정되지 않은 일 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get DD():String</code>
+<br>
+</div>
+<a name="E"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">E</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>E:String</code>&nbsp;&nbsp;[read-only]<p> 0 숫자형의 요일표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get E():String</code>
+<br>
+</div>
+<a name="EE"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">EE</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>EE:String</code>&nbsp;&nbsp;[read-only]<p> 00 고정된 숫자의 요일표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get EE():String</code>
+<br>
+</div>
+<a name="EEE"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">EEE</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>EEE:String</code>&nbsp;&nbsp;[read-only]<p> 
+   짧은 영문형 요일 (Sun, Mon ~ Sat) setEEE() 를 통해 교체가 가능하다
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get EEE():String</code>
+<br>
+</div>
+<a name="EEEE"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">EEEE</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>EEEE:String</code>&nbsp;&nbsp;[read-only]<p> 
+   긴 영문형 요일 (Sunday, Monday ~ Saturday) setEEEE() 를 통해 교체가 가능하다
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get EEEE():String</code>
+<br>
+</div>
+<a name="H"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">H</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>H:String</code>&nbsp;&nbsp;[read-only]<p> 1 ~ 24 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get H():String</code>
+<br>
+</div>
+<a name="HH"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">HH</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>HH:String</code>&nbsp;&nbsp;[read-only]<p> 01 ~ 24 고정된 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get HH():String</code>
+<br>
+</div>
+<a name="J"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">J</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>J:String</code>&nbsp;&nbsp;[read-only]<p> 0 ~ 23 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get J():String</code>
+<br>
+</div>
+<a name="JJ"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">JJ</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>JJ:String</code>&nbsp;&nbsp;[read-only]<p> 00 ~ 23 고정된 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get JJ():String</code>
+<br>
+</div>
+<a name="K"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">K</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>K:String</code>&nbsp;&nbsp;[read-only]<p> 0 ~ 11 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get K():String</code>
+<br>
+</div>
+<a name="KK"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">KK</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>KK:String</code>&nbsp;&nbsp;[read-only]<p> 00 ~ 11 고정된 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get KK():String</code>
+<br>
+</div>
+<a name="L"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">L</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>L:String</code>&nbsp;&nbsp;[read-only]<p> 1 ~ 12 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get L():String</code>
+<br>
+</div>
+<a name="LL"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">LL</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>LL:String</code>&nbsp;&nbsp;[read-only]<p> 01 ~ 12 고정된 시간 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get LL():String</code>
+<br>
+</div>
+<a name="M"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">M</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>M:String</code>&nbsp;&nbsp;[read-only]<p> 7 자릿수 고정되지 않은 월 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get M():String</code>
+<br>
+</div>
+<a name="MM"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">MM</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>MM:String</code>&nbsp;&nbsp;[read-only]<p> 07 자릿수 고정된 월 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get MM():String</code>
+<br>
+</div>
+<a name="MMM"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">MMM</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>MMM:String</code>&nbsp;&nbsp;[read-only]<p> 
+   짧은 영문형 월 (Jan, Feb ~ Dec) setMMM() 을 통해 교체가 가능하다
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get MMM():String</code>
+<br>
+</div>
+<a name="MMMM"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">MMMM</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>MMMM:String</code>&nbsp;&nbsp;[read-only]<p> 
+   긴 영문형 월 (January, February ~ December) setMMMM() 을 통해 교체가 가능하다
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get MMMM():String</code>
+<br>
+</div>
+<a name="N"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">N</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>N:String</code>&nbsp;&nbsp;[read-only]<p> 0 ~ 59 분 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get N():String</code>
+<br>
+</div>
+<a name="NN"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">NN</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>NN:String</code>&nbsp;&nbsp;[read-only]<p> 0 ~ 59 고정된 분 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get NN():String</code>
+<br>
+</div>
+<a name="S"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">S</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>S:String</code>&nbsp;&nbsp;[read-only]<p> 0 ~ 59 초 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get S():String</code>
+<br>
+</div>
+<a name="SS"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">SS</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>SS:String</code>&nbsp;&nbsp;[read-only]<p> 0 ~ 59 고정된 초 표시 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get SS():String</code>
+<br>
+</div>
+<a name="YY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">YY</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>YY:String</code>&nbsp;&nbsp;[read-only]<p> 80 두자리 년도 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get YY():String</code>
+<br>
+</div>
+<a name="YYYY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">YYYY</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>YYYY:String</code>&nbsp;&nbsp;[read-only]<p> 1980 네자리 년도 </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function get YYYY():String</code>
+<br>
+</div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="DateFormatter()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DateFormatter</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function DateFormatter(date:Date)</code><p> 생성자 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">date</span>:Date</code></td>
+</tr>
+</table>
+</div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="formatting()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">formatting</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function formatting(date:Date, format:String = "YYYY-MM-DD"):String</code><p> 포맷팅 문자들을 통해 Date 를 문자열을 포맷팅 한다 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">date</span>:Date</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">format</span>:String</code> (default = "<code>YYYY-MM-DD</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+</div>
+<a name="setA()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setA</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function setA(str:String = "AM|PM"):void</code><p> 오전, 오후 표시 A 의 문자를 교체할 수 있다 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">str</span>:String</code> (default = "<code>AM|PM</code>")<code></code></td>
+</tr>
+</table>
+</div>
+<a name="setEEE()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setEEE</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function setEEE(str:String = "Sun|Mon|Tue|Wed|Thu|Fri|Sat"):void</code><p> 요일 표시 EEE 의 문자를 교체할 수 있다 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">str</span>:String</code> (default = "<code>Sun|Mon|Tue|Wed|Thu|Fri|Sat</code>")<code></code></td>
+</tr>
+</table>
+</div>
+<a name="setEEEE()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setEEEE</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function setEEEE(str:String = "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"):void</code><p> 요일 표시 EEEE 의 문자를 교체할 수 있다 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">str</span>:String</code> (default = "<code>Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday</code>")<code></code></td>
+</tr>
+</table>
+</div>
+<a name="setMMM()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setMMM</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function setMMM(str:String = "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"):void</code><p> 월 표시 MMM 의 문자를 교체할 수 있다 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">str</span>:String</code> (default = "<code>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec</code>")<code></code></td>
+</tr>
+</table>
+</div>
+<a name="setMMMM()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">setMMMM</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function setMMMM(str:String = "January|February|March|April|May|June|July|August|September|October|November|December"):void</code><p> 월 표시 MMMM 의 문자를 교체할 수 있다 </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">str</span>:String</code> (default = "<code>January|February|March|April|May|June|July|August|September|October|November|December</code>")<code></code></td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->

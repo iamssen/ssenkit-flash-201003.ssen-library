@@ -1,0 +1,18 @@
+/* Pretty printing styles. Used with prettify.js. */
+
+.str { color: #d04500; } /* 문자열 "x" /x/ */
+.kwd { color: #6567ff; font-weight: bold;} /* 키워드 class function... */
+.com { color: #ff9314; font-style:italic; } /* 주석 */
+.typ { color: #00adad; } /* 타입 MouseEvent, MovieClip... */
+.lit { color: #b400db; } /* 숫자 */
+.pun { color: #660; } /* . < > 등의 특수문자 */
+.pln { color: #000000; } /* 변수, 태그의 텍스트 돔 */
+.tag { color: #6567ff; font-weight: bold;} /* 태그 내부 문자열 */
+.atn { color: #0000FF; } /* 어트리뷰트 */
+.atv { color: #d04500; } /* 어트리뷰트 내의 문자열 */
+.dec { color: #CCCCCC; font-style:italic; } /* html 랭귀지 타입 선언 */
+
+pre.prettyprint {
+	padding:5px;
+	letter-spacing:0px;
+}

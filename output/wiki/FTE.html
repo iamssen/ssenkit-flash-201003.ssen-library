@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8' ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>FTE</title><link type="text/css" rel="stylesheet" href="src/wiki.css"/></head><body><h1 id="FlashTextEngine">Flash Text Engine</h1><h2 id="TextFormatting">Text Formatting</h2><h3 id="ElementFormat.alignmentBaselineTextBaseline.">ElementFormat.alignmentBaseline = TextBaseline.*</h3><p>BaseLine 의 기준선을 어디로 정할 것인지 정함 </p><p><img border="0" src="images/2009-09-25/20090925162149.png"/> </p><pre class="prettyprint">
+// options
+options1 = [TextBaseline.ASCENT, TextBaseline.DESCENT, TextBaseline.IDEOGRAPHIC_BOTTOM, TextBaseline.IDEOGRAPHIC_CENTER, TextBaseline.IDEOGRAPHIC_TOP, TextBaseline.ROMAN, TextBaseline.USE_DOMINANT_BASELINE];
+// formatting
+var ef : ElementFormat = new ElementFormat(fd, FONT_SIZE, COLOR);
+ef.alignmentBaseline = args[0];
+
+</pre><h3 id="ElementFormat.baselineShiftNumber">ElementFormat.baselineShift = Number</h3><p><img border="0" src="images/2009-09-25/20090925180101.png"/></p><p>BaseLine 을 밀거나 땡김 </p><pre class="prettyprint">
+// options
+options1 = [TextBaseline.ASCENT, TextBaseline.DESCENT, TextBaseline.IDEOGRAPHIC_BOTTOM, TextBaseline.IDEOGRAPHIC_CENTER, TextBaseline.IDEOGRAPHIC_TOP, TextBaseline.ROMAN, TextBaseline.USE_DOMINANT_BASELINE];
+options2 = [0, 10, 100, 0, 10, 100, 0];
+// formatting
+var ef : ElementFormat = new ElementFormat(fd, FONT_SIZE, COLOR);
+ef.alignmentBaseline = args[0];
+ef.baselineShift = args[1];
+
+</pre><h3 id="ElementFormat.breakOpportunityBreakOpportunity.">ElementFormat.breakOpportunity = BreakOpportunity.*</h3><p><img border="0" src="images/2009-09-25/20090925185930.png"/></p><pre class="prettyprint">
+var fd : FontDescription = new FontDescription("nanumGothic CFF", FontWeight.NORMAL, FontPosture.NORMAL, FontLookup.EMBEDDED_CFF, RenderingMode.CFF, CFFHinting.HORIZONTAL_STEM);
+var ef : ElementFormat = new ElementFormat(fd, FONT_SIZE, COLOR);
+ef.breakOpportunity = BreakOpportunity.AUTO;
+var content : Vector.&lt;ContentElement> = new Vector.&lt;ContentElement>();
+content.push(new TextElement("아싸 아싸 아싸 아싸 아싸", ef));
+content.push(new TextElement("조쿠나조쿠나조쿠나", ef));
+content.push(new TextElement("뭐야뭐야뭐야뭐야", ef));
+content.push(new TextElement("크아크아크아크아크아", ef));
+content.push(new TextElement("붸레붸레붸레붸레붸레", ef));
+var tb : TextBlock = new TextBlock(new GroupElement(content));
+var tl : TextLine;
+var old : TextLine;
+var f : int;
+var nextY : int = 50;
+for (f = 0;f &lt; 4; f++) {
+	tl = tb.createTextLine(old, 200);
+	if (tl == null) {
+		break;
+	}
+	tl.x = 50;
+	tl.y = nextY;
+	nextY += tl.height + 5;
+	addChild(tl);
+	old = tl;
+}
+
+</pre><p>br 에 대한 적용 범위를 지정하는 듯... 다른 문제점들을 발견할 수는 없었고 옵션을 ALL 로 했을때는 아래와 같은 현상이 벌어졌다. (모든 글자에 대해 내려쓰기 기회를 주는듯)</p><p><img border="0" src="images/2009-09-25/20090925190334.png"/></p><h3 id="ElementFormat.">ElementFormat. </h3><p><script type="text/javascript" src="src/prettify.js"></script><script type="text/javascript">prettyPrint();</script></p></body></html>

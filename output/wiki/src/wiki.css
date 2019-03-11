@@ -1,0 +1,220 @@
+@CHARSET "UTF-8";
+
+html, body, p, pre, h1, h2, h3, h4, h5, h6, table, th, td {
+	font-family: NanumGothic, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+
+h3, h4, h5, h6, p, pre, table {
+	margin-left:20px;
+}
+
+/** table setting */
+table {
+	background: #fff;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+th {
+	font-weight: bold;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+
+td {
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+
+tbody tr:hover td {
+	color: #009;
+}
+
+/** text setting */
+h1 {
+	font-size: 170%;
+	font-weight: bold;
+	color: #172f47;
+	border-bottom: 3px solid black;
+}
+
+h2 {
+	font-size: 130%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h3 {
+	font-size: 105%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h4 {
+	font-weight: bold;
+	color: #172f47;
+}
+
+h5 {
+	font-size: 90%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+h6 {
+	font-size: 80%;
+	font-weight: bold;
+	color: #172f47;
+}
+
+b {
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+
+cite {
+	font-style: italic;
+}
+
+em {
+	font-style: italic;
+}
+
+var {
+	font-style: italic;
+}
+
+dfn {
+	font-style: italic;
+}
+
+code {
+	font-family: monospace;
+	color: #4444CC;
+}
+
+pre {
+	font-family: monospace;
+	word-wrap: break-word;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+sup {
+	font-size: smaller;
+	vertical-align: super;
+}
+
+a {
+	text-decoration: underline;
+	color: blue;
+}
+
+sup a {
+	text-decoration: none;
+}
+
+sub {
+	font-size: smaller;
+	vertical-align: sub;
+}
+
+dt {
+	font-weight: bold;
+}
+
+blockquote {
+	color: rgb(38, 86, 145);
+}
+
+tt {
+	font-family: monospace;
+}
+
+q {
+	color: rgb(38, 86, 145);
+}
+
+/** google code prettify */
+/* 문자열 "x" /x/ */
+.str {
+	color: #d04500;
+}
+
+/* 키워드 class function... */
+.kwd {
+	color: #6567ff;
+	font-weight: bold;
+}
+
+/* 주석 */
+.com {
+	color: #ff9314;
+	font-style: italic;
+}
+
+/* 타입 MouseEvent, MovieClip... */
+.typ {
+	color: #00adad;
+}
+
+/* 숫자 */
+.lit {
+	color: #b400db;
+}
+
+/* . < > 등의 특수문자 */
+.pun {
+	color: #660;
+}
+
+/* 변수, 태그의 텍스트 돔 */
+.pln {
+	color: #000000;
+}
+
+/* 태그 내부 문자열 */
+.tag {
+	color: #6567ff;
+	font-weight: bold;
+}
+
+/* 어트리뷰트 */
+.atn {
+	color: #0000FF;
+}
+
+/* 어트리뷰트 내의 문자열 */
+.atv {
+	color: #d04500;
+}
+
+/* html 랭귀지 타입 선언 */
+.dec {
+	color: #CCCCCC;
+	font-style: italic;
+}
+
+pre.prettyprint {
+	font-family: Monaco, numGothic, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-left: 10px solid #eeeeee;
+	padding: 5px;
+	letter-spacing: 0px;
+}

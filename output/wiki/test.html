@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8' ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>test</title><link type="text/css" rel="stylesheet" href="src/wiki.css"/></head><body><h1 id="aaaaaaa" style="text-align: center;">aaaaaaa</h1><p>ㅁㅁㅁㅁ</p><table><tr><th>a</th><th>a</th><th>a</th><th>a</th></tr><tr><td>b</td><td>b</td><td>b</td><td>b</td></tr></table><p>가나다라마바사</p><p>나나나나나</p><p>	ㄸㄸ</p><p><xmp><xxx>가나다</xxx></xmp><br/>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p><pre class="prettyprint">&lt;project name="ssen library build" default="03.swc">
+	&lt;property file="ssen-library.properties" />
+	&lt;property name="debug.file" value="${basedir}/output/swf/index.swf" />
+	&lt;path id="wikitext.classpath">
+		&lt;fileset dir="${global.wiki}">
+			&lt;include name="org.eclipse.mylyn.wikitext.*core*.jar" />
+		&lt;/fileset>
+	&lt;/path>
+	&lt;taskdef classpathref="wikitext.classpath" resource="org/eclipse/mylyn/wikitext/core/util/anttask/tasks.properties" />
+
+	&lt;target name="02.asdoc">
+		&lt;delete dir="${output.asdoc}" failOnError="false" includeEmptyDirs="true" />
+		&lt;mkdir dir="${output.asdoc}" />
+
+		&lt;exec executable="${global.exe.asdoc}">
+			&lt;arg line='-source-path ${project.src}' />
+			&lt;arg line='-doc-sources ${project.src}' />
+			&lt;arg line="-library-path ${project.lib}" />
+			&lt;arg line="-library-path ${global.lib.pure}" />
+			&lt;arg line="-library-path ${global.lib.mx}" />
+			&lt;arg line='-window-title "elle asdoc"' />
+			&lt;arg line='-main-title "elle asdoc"' />
+			&lt;arg line='-output ${output.asdoc}' />
+		&lt;/exec>
+	&lt;/target>
+
+	&lt;target name="03.swc">
+		&lt;exec executable="${global.exe.compc}">
+			&lt;arg line="-output ${output.swc}/ssen-library.swc" />
+			&lt;arg line="-compiler.library-path ${project.lib}" />
+			&lt;arg line="-compiler.library-path ${global.lib.pure}" />
+			&lt;arg line="-compiler.library-path ${global.lib.mx}" />
+			&lt;arg line="-compiler.source-path ${project.src}" />
+			&lt;arg line="-include-sources ${project.src}" />
+		&lt;/exec>
+	&lt;/target>
+	&lt;target name="04.libraryToSwc">
+		&lt;exec executable="${global.exe.compc}">
+			&lt;arg line="-output ${project.lib}/library.swc" />
+			&lt;arg line="-compiler.library-path ${project.lib}" />
+			&lt;arg line="-compiler.source-path ${project.src}" />
+			&lt;arg line="-include-sources source/library" />
+		&lt;/exec>
+	&lt;/target>
+
+</pre><p>가나다라마바</p><p>	<target name="05.wikiParse"><br/>		<wikitext-to-html markupLanguage="Textile" sourceencoding="utf-8"><br/>			<fileset dir="${project.wiki}"><br/>				<include name="*.textile" /><br/>			</fileset><br/>			<stylesheet url="wiki.css" /><br/>			<markuplanguageconfiguration escapinghtmlandxml="true"/><br/>		</wikitext-to-html><br/>	</target><br/></project></p>   나나<p>가나다</p>    나나 <p><script type="text/javascript" src="src/prettify.js"></script><script type="text/javascript">prettyPrint();</script></p></body></html>

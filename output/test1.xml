@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<d>
+	<r cd="00" msg="정상적으로 처리되었습니다." />
+	<l id="cycleList">
+		<i id="0">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0001]]></e>
+			<e id="cccm1CdNm"><![CDATA[엔진오일 및 필터]]></e>
+			<e id="pic1Dist"><![CDATA[15000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[124586]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[엔진오일 및 필터|15000|124586|0|0|바꿀시기에 일어나는 현상 - 윤활작용이 정상적으로 이루어지지 않아 엔진 보호 기능이 떨어지게 되며 엔진의 소음 발생, 이상 마모 및 실린더 고착 등이 발생될 수 있습니다.엔진오일 필터는 엔진 내부에서 발생된 각종 찌꺼기를 제거하는 역할을 하므로 장기간 미교환시 엔진오일의 청정도가 떨어지거나 엔진 수명이 단축됩니다. 엔진 오일(Engine Oil)은 엔진내부의 윤활 및 냉각작용을 하여 엔진 성능향상과 수명연장을 시키는데 중요한 역할을 합니다.  밸브의 가이드와 스템 및 피스톤과 실린더 라이너를 윤활시킨 오일은 연소실로 유입되어 연소 후 증발하며 약간씩 소모됩니다. 또한 고속, 고부하, 급가감속 운전, 장시간 공회전 및 교통체증에 따른 빈번한 정지, 출발과 같이 차량을 운행하면 주행거리에 비해 많은 양의 엔진오일이 소모되며 오일의 수명또한 짧아집니다  그러므로 오일의 보충 및 교환주기에 있어서 엔진의 가혹상태와 주행거리를 함께 염두에 두어야 합니다. 일상 점검시 게이지의 최소선(L)부근에 오일이 왔을 때 보충 해주며 주입시 게이지의 최대선(F)을 넘어가게 해서는 안됩니다 .오일 필터 (Oil Filter)는 엔진오일에 포함된 이물질(쇠가루, 먼지등)을 거르는 역할을 합니다. 오일 필터의 수명이 다하면 필터는 이물질로 인해 막혀 오일의 흐름을 막게되고 푸시오픈 바이패스 밸브를 통하여 오일순환은 이루어지지만 오염된 엔진오일이 그대로 엔진 내부로 들어가 고가인 엔진에 치명적인 손상을 입힐 수 있습니다. 그리고 오일필터는 엔진 블록에 나사산으로 장착되므로 운행중 엔진오일이 누출될 수도 있습니다. 수시 점검을 통해서 최악의 상태를 예방해야 합니다. |GODS_0001.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 윤활작용이 정상적으로 이루어지지 않아 엔진 보호 기능이 떨어지게 되며 엔진의 소음 발생, 이상 마모 및 실린더 고착 등이 발생될 수 있습니다.엔진오일 필터는 엔진 내부에서 발생된 각종 찌꺼기를 제거하는 역할을 하므로 장기간 미교환시 엔진오일의 청정도가 떨어지거나 엔진 수명이 단축됩니다. 엔진 오일(Engine Oil)은 엔진내부의 윤활 및 냉각작용을 하여 엔진 성능향상과 수명연장을 시키는데 중요한 역할을 합니다.  밸브의 가이드와 스템 및 피스톤과 실린더 라이너를 윤활시킨 오일은 연소실로 유입되어 연소 후 증발하며 약간씩 소모됩니다. 또한 고속, 고부하, 급가감속 운전, 장시간 공회전 및 교통체증에 따른 빈번한 정지, 출발과 같이 차량을 운행하면 주행거리에 비해 많은 양의 엔진오일이 소모되며 오일의 수명또한 짧아집니다  그러므로 오일의 보충 및 교환주기에 있어서 엔진의 가혹상태와 주행거리를 함께 염두에 두어야 합니다. 일상 점검시 게이지의 최소선(L)부근에 오일이 왔을 때 보충 해주며 주입시 게이지의 최대선(F)을 넘어가게 해서는 안됩니다 .오일 필터 (Oil Filter)는 엔진오일에 포함된 이물질(쇠가루, 먼지등)을 거르는 역할을 합니다. 오일 필터의 수명이 다하면 필터는 이물질로 인해 막혀 오일의 흐름을 막게되고 푸시오픈 바이패스 밸브를 통하여 오일순환은 이루어지지만 오염된 엔진오일이 그대로 엔진 내부로 들어가 고가인 엔진에 치명적인 손상을 입힐 수 있습니다. 그리고 오일필터는 엔진 블록에 나사산으로 장착되므로 운행중 엔진오일이 누출될 수도 있습니다. 수시 점검을 통해서 최악의 상태를 예방해야 합니다. ]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="1">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0002]]></e>
+			<e id="cccm1CdNm"><![CDATA[에어클리너 필터]]></e>
+			<e id="pic1Dist"><![CDATA[40000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[2]]></e>
+			<e id="exchDtlInfo"><![CDATA[에어클리너 필터|40000|0|2|130000|바꿀시기에 일어나는 현상 - 엔진으로 적절한 양의 공기가 유입되지 않아 엔진의 출력이 저하되거나 매연이 발생될 수 있습니다. 교환주기가 아니더라도 주기적으로 청소를 해주는 것이 좋습니다.엔진 작동시 운전자가 상상하는 것 보다 매우 많은량의 공기가 엔진 안으로 흡입됩니다. 이 공기에는 엔진의 마모 유발과 연소를 방해하는 많은 입자가 있어 엔진 내부의 마모가 빨라지고 연비 및 출력이 떨어집니다. 따라서 이런 작은 입자가 엔진 연소실 안으로 들어가지 못하도록 에어 필터를 사용합니다. 점검 정비 주기에 따라 점검 및 교환하시고 비 포장도로나 먼지가 많은 지역을 주행시는 수시로 점검 교환 해야 합니다.|GODS_0002.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 엔진으로 적절한 양의 공기가 유입되지 않아 엔진의 출력이 저하되거나 매연이 발생될 수 있습니다. 교환주기가 아니더라도 주기적으로 청소를 해주는 것이 좋습니다.엔진 작동시 운전자가 상상하는 것 보다 매우 많은량의 공기가 엔진 안으로 흡입됩니다. 이 공기에는 엔진의 마모 유발과 연소를 방해하는 많은 입자가 있어 엔진 내부의 마모가 빨라지고 연비 및 출력이 떨어집니다. 따라서 이런 작은 입자가 엔진 연소실 안으로 들어가지 못하도록 에어 필터를 사용합니다. 점검 정비 주기에 따라 점검 및 교환하시고 비 포장도로나 먼지가 많은 지역을 주행시는 수시로 점검 교환 해야 합니다.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="2">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0003]]></e>
+			<e id="cccm1CdNm"><![CDATA[공조장치용 에어필터]]></e>
+			<e id="pic1Dist"><![CDATA[15000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[124590]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[공조장치용 에어필터|15000|124590|0|0|에어컨, 히터 작동시 통풍량이 감소될 수 있습니다.필터에 먼지나 이물질이 쌓이게 되면 송출통로가 막히게  되어 바람이 제대로 나오지 못합니다. 에어컨이나 히터를 작동시키지 않았다고 해도 외기모드로 놓고 주행하면 외부공기는 필터를 거쳐서 실내로 유입되므로 똑같이 오염이 됩니다  에어컨 에어 필터를 주기적으로 점검하십시오.|GODS_0003.jpg]]></e>
+			<e id="exchSbc"><![CDATA[에어컨, 히터 작동시 통풍량이 감소될 수 있습니다.필터에 먼지나 이물질이 쌓이게 되면 송출통로가 막히게  되어 바람이 제대로 나오지 못합니다. 에어컨이나 히터를 작동시키지 않았다고 해도 외기모드로 놓고 주행하면 외부공기는 필터를 거쳐서 실내로 유입되므로 똑같이 오염이 됩니다  에어컨 에어 필터를 주기적으로 점검하십시오.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="3">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0004]]></e>
+			<e id="cccm1CdNm"><![CDATA[점화플러그]]></e>
+			<e id="pic1Dist"><![CDATA[40000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[2]]></e>
+			<e id="exchDtlInfo"><![CDATA[점화플러그|40000|0|2|130000|바꿀시기에 일어나는 현상 - 점화 불꽃이 약해져 엔진의 출력저하, 시동불량등이 발생될 수 있으며 심한 경우 실화, 노킹, 역화 (Back fire) 등이 발생될 수 있습니다.점화 플러그(Spark Plug)는 혼합기에 전기 불꽃으로 점화시키는 부품으로 중심을 관통하는 플러스 전극의 주위를 세라믹으로 덮어 절연시키고 엔진에 접촉되는 나사부에 마이너스 전극을 설치하여 두 전극간에 불꽃을 발생시키는 구조로 되어 있다. 점화플러그는 2,000℃의 연소열에 노출되어 있고 20,000V 이상의 고전압을 방출해 엔진의 시동을 유지하는 부품으로 가장 가혹한 조건에서 작동합니다. 기능에 이상이 생기면 엔진에 공급된 연료를 제대로 연소하지 못해 내부의 오염과 출력저하 및 배출 가스의 증가로 이어집니다. 기존의 플러그에 비해 백금으로 코팅된 플러그는 성능과 수명이 몇배 연장됐으며 카본이 퇴적되는 양도 현저히 감소하였습니다|GODS_0004.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 점화 불꽃이 약해져 엔진의 출력저하, 시동불량등이 발생될 수 있으며 심한 경우 실화, 노킹, 역화 (Back fire) 등이 발생될 수 있습니다.점화 플러그(Spark Plug)는 혼합기에 전기 불꽃으로 점화시키는 부품으로 중심을 관통하는 플러스 전극의 주위를 세라믹으로 덮어 절연시키고 엔진에 접촉되는 나사부에 마이너스 전극을 설치하여 두 전극간에 불꽃을 발생시키는 구조로 되어 있다. 점화플러그는 2,000℃의 연소열에 노출되어 있고 20,000V 이상의 고전압을 방출해 엔진의 시동을 유지하는 부품으로 가장 가혹한 조건에서 작동합니다. 기능에 이상이 생기면 엔진에 공급된 연료를 제대로 연소하지 못해 내부의 오염과 출력저하 및 배출 가스의 증가로 이어집니다. 기존의 플러그에 비해 백금으로 코팅된 플러그는 성능과 수명이 몇배 연장됐으며 카본이 퇴적되는 양도 현저히 감소하였습니다]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="4">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0005]]></e>
+			<e id="cccm1CdNm"><![CDATA[자동변속기 오일]]></e>
+			<e id="pic1Dist"><![CDATA[100000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[124588]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[자동변속기 오일|100000|124588|0|0|오일압력 저하로 변속시 충격 발생 또는 변속이 불가할 수 있으며 자동변속기 내부의 오일 순환 불량으로 내부 부품의 과다마모로 자동변속기의 수명이 단축될 수 있습니다.자동변속기 전용의 작동유이며 윤활유의 일종이다. 자동변속기 오일은 부족하거나  과도하게 많을 경우 변속기 내부의 구성 부품을 손상시킬 수 있어 수시로 점검해야 합니다. 엔진이 완전히 웜업되어 냉각수의 온도가 정상일 때 엔진을 공회전 상태로 유지하면서 선택 레버를 P, R, N, D, 2, L로 2~3회 전환시킨 후, N 상태에서 오일레벨 게이지를 뽑아 HOT 범위에 위치하고 있는가를 확인합니다. 이때 부족하거나 과도할 경우 보충하거나 배출시켜야 합니다. 특히 오일의 색깔이 붉은색을 유지하고 있는지를 확인해야 하며, 우윳빛을 띠면 자동변속기 내부에 물이 유입되었다고 볼 수 있습니다. |GODS_0005.jpg]]></e>
+			<e id="exchSbc"><![CDATA[오일압력 저하로 변속시 충격 발생 또는 변속이 불가할 수 있으며 자동변속기 내부의 오일 순환 불량으로 내부 부품의 과다마모로 자동변속기의 수명이 단축될 수 있습니다.자동변속기 전용의 작동유이며 윤활유의 일종이다. 자동변속기 오일은 부족하거나  과도하게 많을 경우 변속기 내부의 구성 부품을 손상시킬 수 있어 수시로 점검해야 합니다. 엔진이 완전히 웜업되어 냉각수의 온도가 정상일 때 엔진을 공회전 상태로 유지하면서 선택 레버를 P, R, N, D, 2, L로 2~3회 전환시킨 후, N 상태에서 오일레벨 게이지를 뽑아 HOT 범위에 위치하고 있는가를 확인합니다. 이때 부족하거나 과도할 경우 보충하거나 배출시켜야 합니다. 특히 오일의 색깔이 붉은색을 유지하고 있는지를 확인해야 하며, 우윳빛을 띠면 자동변속기 내부에 물이 유입되었다고 볼 수 있습니다. ]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="5">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0006]]></e>
+			<e id="cccm1CdNm"><![CDATA[브레이크 패드(Frt)]]></e>
+			<e id="pic1Dist"><![CDATA[0]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[130000]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[브레이크 패드(Frt)|0|130000|0|0|바꿀시기에 일어나는 현상 - 제동시 소음 발생, 제동력 저하, 편제동 발생 및 심한 경우 브레이크 디스크의 손상을 가져올 수 있습니다. 브레이크 패드(Brake Pad)는 휠 실린더에 가해진 유압에 따라 브레이크 디스크에 압착하여 제동력을 발생하고 디스크 브레이크의 캘리퍼 내에 내장되어 있다.일정한 부분까지 마모되면 교환해 주어야 한다 브레이크 디스크 (Brake Disc)는 디스크 로터라고도 하며 휠실린더에서 브레이크 패드를 압착시켜 제동 효과를 발생하는 원판이다. 유기결합제나 충전제(充塡劑)로 석면(石綿)이나 섬유를 굳혀서 만든다.  드럼 브레이크(바퀴 내부에 장치한 드럼의 안쪽에서 브레이크슈를 누르는 제동장치) 또는 디스크 브레이크(바퀴와 함께 회전하는 원판을 베드로 양쪽에서 조이는 제동장치)에 작동해서 마찰력을 일으킨다.  자동차·기차·전동차 등의 차량 또는 기중기 등 기계장치의 운전 제어에 사용된다 브레이크의 라이닝과 패드는 자주 마모되는 것이니 만큼 잘 살펴 보아야 한다.  라이닝은 이전 교환시기를 기준으로 상태에 따라 교환하는 것이 좋다.  브레이크에서 "끼익" 소리 등이 들리면 일간 라이닝(패드)을 의심해 보고 점검일자를 확인하여 교체하여야 한다. 브레이크 라이닝의 교환시기는 통상적으로 30,000 km 정도를 기준으로 하지만 운전습관과 운행 상태에 따라 다를 수 있으므로 항상 점검하는 습관을 길러야 한다. 디스크형 브레이크에  사용하는것이 "브레이크 패드"이고, 드럼식에 사용하는것이 "라이닝 휴"이다.  그러나 통상적으로 일반인들은 브레이크 라이닝으로 통칭하여 부른다. |GODS_0006.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 제동시 소음 발생, 제동력 저하, 편제동 발생 및 심한 경우 브레이크 디스크의 손상을 가져올 수 있습니다. 브레이크 패드(Brake Pad)는 휠 실린더에 가해진 유압에 따라 브레이크 디스크에 압착하여 제동력을 발생하고 디스크 브레이크의 캘리퍼 내에 내장되어 있다.일정한 부분까지 마모되면 교환해 주어야 한다 브레이크 디스크 (Brake Disc)는 디스크 로터라고도 하며 휠실린더에서 브레이크 패드를 압착시켜 제동 효과를 발생하는 원판이다. 유기결합제나 충전제(充塡劑)로 석면(石綿)이나 섬유를 굳혀서 만든다.  드럼 브레이크(바퀴 내부에 장치한 드럼의 안쪽에서 브레이크슈를 누르는 제동장치) 또는 디스크 브레이크(바퀴와 함께 회전하는 원판을 베드로 양쪽에서 조이는 제동장치)에 작동해서 마찰력을 일으킨다.  자동차·기차·전동차 등의 차량 또는 기중기 등 기계장치의 운전 제어에 사용된다 브레이크의 라이닝과 패드는 자주 마모되는 것이니 만큼 잘 살펴 보아야 한다.  라이닝은 이전 교환시기를 기준으로 상태에 따라 교환하는 것이 좋다.  브레이크에서 "끼익" 소리 등이 들리면 일간 라이닝(패드)을 의심해 보고 점검일자를 확인하여 교체하여야 한다. 브레이크 라이닝의 교환시기는 통상적으로 30,000 km 정도를 기준으로 하지만 운전습관과 운행 상태에 따라 다를 수 있으므로 항상 점검하는 습관을 길러야 한다. 디스크형 브레이크에  사용하는것이 "브레이크 패드"이고, 드럼식에 사용하는것이 "라이닝 휴"이다.  그러나 통상적으로 일반인들은 브레이크 라이닝으로 통칭하여 부른다. ]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="6">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0007]]></e>
+			<e id="cccm1CdNm"><![CDATA[브레이크패드(Rr.디스크)]]></e>
+			<e id="pic1Dist"><![CDATA[0]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[브레이크패드(Rr.디스크)|0|0|0|0|바꿀시기에 일어나는 현상 - 제동시 소음 발생, 제동력 저하, 편제동 발생 및 심한 경우 브레이크 디스크 (또는 드럼)의 손상을 가져올 수 있습니다. 브레이크 패드(Brake Pad)는 휠 실린더에 가해진 유압에  따라 브레이크 디스크에 압착하여 제동력을 발생하고 디스크 브레이크의 캘리퍼 내에 내장되어 있다. 유기결합제나 충전제(充塡劑)로 석면(石綿)이나 섬유를 굳혀서 만든다.  드럼 브레이크(바퀴 내부에 장치한 드럼의 안쪽에서 브레이크슈를 누르는 제동장치) 또는 디스크 브레이크(바퀴와 함께 회전하는 원판을 베드로 양쪽에서 조이는 제동장치)에 작동해서 마찰력을 일으킨다.  자동차·기차·전동차 등의 차량 또는 기중기 등 기계장치의 운전 제어에 사용된다 브레이크의 라이닝과 패드는 자주 마모되는 것이니 만큼 잘 살펴 보아야 한다.  라이닝은 이전 교환시기를 기준으로 상태에 따라 교환하는 것이 좋다.  브레이크에서 "끼익" 소리 등이 들리면 일간 라이닝(패드)을 의심해 보고 점검일자를 확인하여 교체하여야 한다. 브레이크 라이닝의 교환시기는 통상적으로 30,000 km 정도를 기준으로 하지만 운전습관과 운행 상태에 따라 다를 수 있으므로 항상 점검하는 습관을 길러야 한다. 디스크형 브레이크에  사용하는것이 "브레이크 패드"이고, 드럼식에 사용하는것이 "라이닝 휴"이다.  그러나 통상적으로 일반인들은 브레이크 라이닝으로 통칭하여 부른다. |GODS_0007.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 제동시 소음 발생, 제동력 저하, 편제동 발생 및 심한 경우 브레이크 디스크 (또는 드럼)의 손상을 가져올 수 있습니다. 브레이크 패드(Brake Pad)는 휠 실린더에 가해진 유압에  따라 브레이크 디스크에 압착하여 제동력을 발생하고 디스크 브레이크의 캘리퍼 내에 내장되어 있다. 유기결합제나 충전제(充塡劑)로 석면(石綿)이나 섬유를 굳혀서 만든다.  드럼 브레이크(바퀴 내부에 장치한 드럼의 안쪽에서 브레이크슈를 누르는 제동장치) 또는 디스크 브레이크(바퀴와 함께 회전하는 원판을 베드로 양쪽에서 조이는 제동장치)에 작동해서 마찰력을 일으킨다.  자동차·기차·전동차 등의 차량 또는 기중기 등 기계장치의 운전 제어에 사용된다 브레이크의 라이닝과 패드는 자주 마모되는 것이니 만큼 잘 살펴 보아야 한다.  라이닝은 이전 교환시기를 기준으로 상태에 따라 교환하는 것이 좋다.  브레이크에서 "끼익" 소리 등이 들리면 일간 라이닝(패드)을 의심해 보고 점검일자를 확인하여 교체하여야 한다. 브레이크 라이닝의 교환시기는 통상적으로 30,000 km 정도를 기준으로 하지만 운전습관과 운행 상태에 따라 다를 수 있으므로 항상 점검하는 습관을 길러야 한다. 디스크형 브레이크에  사용하는것이 "브레이크 패드"이고, 드럼식에 사용하는것이 "라이닝 휴"이다.  그러나 통상적으로 일반인들은 브레이크 라이닝으로 통칭하여 부른다. ]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="7">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0008]]></e>
+			<e id="cccm1CdNm"><![CDATA[브레이크 패드(Rr.드럼)]]></e>
+			<e id="pic1Dist"><![CDATA[0]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[브레이크 패드(Rr.드럼)|0|0|0|0|바꿀시기에 일어나는 현상 - 제동시 소음 발생, 제동력 저하, 편제동 발생 및 심한 경우 브레이크 디스크 (또는 드럼)의 손상을 가져올 수 있습니다. 브레이크 패드(Brake Pad)는 휠 실린더에 가해진 유압에  따라 브레이크 디스크에 압착하여 제동력을 발생하고 디스크 브레이크의 캘리퍼 내에 내장되어 있다. 유기결합제나 충전제(充塡劑)로 석면(石綿)이나 섬유를 굳혀서 만든다.  드럼 브레이크(바퀴 내부에 장치한 드럼의 안쪽에서 브레이크슈를 누르는 제동장치) 또는 디스크 브레이크(바퀴와 함께 회전하는 원판을 베드로 양쪽에서 조이는 제동장치)에 작동해서 마찰력을 일으킨다.  자동차·기차·전동차 등의 차량 또는 기중기 등 기계장치의 운전 제어에 사용된다 브레이크의 라이닝과 패드는 자주 마모되는 것이니 만큼 잘 살펴 보아야 한다.  라이닝은 이전 교환시기를 기준으로 상태에 따라 교환하는 것이 좋다.  브레이크에서 "끼익" 소리 등이 들리면 일간 라이닝(패드)을 의심해 보고 점검일자를 확인하여 교체하여야 한다. 브레이크 라이닝의 교환시기는 통상적으로 30,000 km 정도를 기준으로 하지만 운전습관과 운행 상태에 따라 다를 수 있으므로 항상 점검하는 습관을 길러야 한다. 디스크형 브레이크에  사용하는것이 "브레이크 패드"이고, 드럼식에 사용하는것이 "라이닝 휴"이다.  그러나 통상적으로 일반인들은 브레이크 라이닝으로 통칭하여 부른다. |GODS_0008.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 제동시 소음 발생, 제동력 저하, 편제동 발생 및 심한 경우 브레이크 디스크 (또는 드럼)의 손상을 가져올 수 있습니다. 브레이크 패드(Brake Pad)는 휠 실린더에 가해진 유압에  따라 브레이크 디스크에 압착하여 제동력을 발생하고 디스크 브레이크의 캘리퍼 내에 내장되어 있다. 유기결합제나 충전제(充塡劑)로 석면(石綿)이나 섬유를 굳혀서 만든다.  드럼 브레이크(바퀴 내부에 장치한 드럼의 안쪽에서 브레이크슈를 누르는 제동장치) 또는 디스크 브레이크(바퀴와 함께 회전하는 원판을 베드로 양쪽에서 조이는 제동장치)에 작동해서 마찰력을 일으킨다.  자동차·기차·전동차 등의 차량 또는 기중기 등 기계장치의 운전 제어에 사용된다 브레이크의 라이닝과 패드는 자주 마모되는 것이니 만큼 잘 살펴 보아야 한다.  라이닝은 이전 교환시기를 기준으로 상태에 따라 교환하는 것이 좋다.  브레이크에서 "끼익" 소리 등이 들리면 일간 라이닝(패드)을 의심해 보고 점검일자를 확인하여 교체하여야 한다. 브레이크 라이닝의 교환시기는 통상적으로 30,000 km 정도를 기준으로 하지만 운전습관과 운행 상태에 따라 다를 수 있으므로 항상 점검하는 습관을 길러야 한다. 디스크형 브레이크에  사용하는것이 "브레이크 패드"이고, 드럼식에 사용하는것이 "라이닝 휴"이다.  그러나 통상적으로 일반인들은 브레이크 라이닝으로 통칭하여 부른다. ]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="8">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0009]]></e>
+			<e id="cccm1CdNm"><![CDATA[브레이크 오일]]></e>
+			<e id="pic1Dist"><![CDATA[40000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[2]]></e>
+			<e id="exchDtlInfo"><![CDATA[브레이크 오일|40000|0|2|130000|장기간 미교환시 수분 유입 및 오염으로 제동 성능이 저하됩니다. 약한 미열에도 베이퍼록 현상이 쉽게 발생되어 제동력이 저하되며 불순물로 인해 휠실린더가 고착될 수 있습니다. 또한  ABS 장착 차량의 경우 ABS 관련 부품의 수명과 성능에 영향을 줄수도 있습니다.브레이크 오일은 브레이크 액 저장용기를 통해 점검합니다.  점검하기 쉽게 투명한  플라스틱으로 만들어져 있고 센서를 장착하여 오일 부족시 계기판에 경고등을 점등시킵니다. 주기적으로 브레이크액 저장용기에 브레이크액이“MAX”와“MIN”사이에 있는지 점검하십시오. 수준이“MIN”이하이면 규정오일로 보충해 주십시오. 클러치 액은 저장용기에 담겨진 클러치 액의 수준이 MAX와 MIN 사이에 있는지 확인합니다. 액이 부족하면 규정오일을 흘리지 않도록 조심해서 캡을 열고 주입합니다.|GODS_0009.jpg]]></e>
+			<e id="exchSbc"><![CDATA[장기간 미교환시 수분 유입 및 오염으로 제동 성능이 저하됩니다. 약한 미열에도 베이퍼록 현상이 쉽게 발생되어 제동력이 저하되며 불순물로 인해 휠실린더가 고착될 수 있습니다. 또한  ABS 장착 차량의 경우 ABS 관련 부품의 수명과 성능에 영향을 줄수도 있습니다.브레이크 오일은 브레이크 액 저장용기를 통해 점검합니다.  점검하기 쉽게 투명한  플라스틱으로 만들어져 있고 센서를 장착하여 오일 부족시 계기판에 경고등을 점등시킵니다. 주기적으로 브레이크액 저장용기에 브레이크액이“MAX”와“MIN”사이에 있는지 점검하십시오. 수준이“MIN”이하이면 규정오일로 보충해 주십시오. 클러치 액은 저장용기에 담겨진 클러치 액의 수준이 MAX와 MIN 사이에 있는지 확인합니다. 액이 부족하면 규정오일을 흘리지 않도록 조심해서 캡을 열고 주입합니다.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="9">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0010]]></e>
+			<e id="cccm1CdNm"><![CDATA[부동액]]></e>
+			<e id="pic1Dist"><![CDATA[40000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[2]]></e>
+			<e id="exchDtlInfo"><![CDATA[부동액|40000|0|2|130000|바꿀시기에 일어나는 현상 - 냉각수 통로를 부식시키거나 심한 경우 막힐수 있으며 냉각 효율이 저하되면 엔진 과열로 인해 엔진 출력 저하, 노킹 발생 및 심한 경우 엔진 부품의 열변형이 발생될 수 있습니다.냉각수는 엔진의 높은 열을 엔진내부의 통로를 따라 식혀주며 겨울철에는 엔진의 동파를 방지하는 역할을 합니다.냉각수는 시간이 경과함에 따라 부동, 방청 성능이 저하되므로 일정 주기마다 점검 및 교환을 해줘야 합니다.엔진이 뜨거울때는 라디에이터 내부가 고압상태로 캡을 열 때 냉각수가 분출되어 화상을 입을 수 있으므로반드시 엔진이 식은 상태에서 라디에이터 캡을 열어야 합니다.|GODS_0010.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 냉각수 통로를 부식시키거나 심한 경우 막힐수 있으며 냉각 효율이 저하되면 엔진 과열로 인해 엔진 출력 저하, 노킹 발생 및 심한 경우 엔진 부품의 열변형이 발생될 수 있습니다.냉각수는 엔진의 높은 열을 엔진내부의 통로를 따라 식혀주며 겨울철에는 엔진의 동파를 방지하는 역할을 합니다.냉각수는 시간이 경과함에 따라 부동, 방청 성능이 저하되므로 일정 주기마다 점검 및 교환을 해줘야 합니다.엔진이 뜨거울때는 라디에이터 내부가 고압상태로 캡을 열 때 냉각수가 분출되어 화상을 입을 수 있으므로반드시 엔진이 식은 상태에서 라디에이터 캡을 열어야 합니다.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="10">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0011]]></e>
+			<e id="cccm1CdNm"><![CDATA[연료필터]]></e>
+			<e id="pic1Dist"><![CDATA[60000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[2]]></e>
+			<e id="exchDtlInfo"><![CDATA[연료필터|60000|0|2|130000|연료분사장치에 손상을 주거나 출력 저하, 연비 저하, 매연 증가 등이 발생될 수 있습니다.연료 중의 불순물을 제거하여 연료를 분사하는 인젝터가 막히지 않도록 하며 연료라인의 원활한 흐름을 유지하고 불순물에 의한 연료 오염방지 역할을 합니다.장시간 연료필터를 교환하지 않는 경우, 연료라인이 막힌것과 같은 효과가 나서 연료분사가 잘 되지 않아,출력 부족, 시동불량 등의 원인이 되기도 합니다.|GODS_0011.jpg]]></e>
+			<e id="exchSbc"><![CDATA[연료분사장치에 손상을 주거나 출력 저하, 연비 저하, 매연 증가 등이 발생될 수 있습니다.연료 중의 불순물을 제거하여 연료를 분사하는 인젝터가 막히지 않도록 하며 연료라인의 원활한 흐름을 유지하고 불순물에 의한 연료 오염방지 역할을 합니다.장시간 연료필터를 교환하지 않는 경우, 연료라인이 막힌것과 같은 효과가 나서 연료분사가 잘 되지 않아,출력 부족, 시동불량 등의 원인이 되기도 합니다.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="11">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0012]]></e>
+			<e id="cccm1CdNm"><![CDATA[타이어 위치교체]]></e>
+			<e id="pic1Dist"><![CDATA[10000]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[2]]></e>
+			<e id="exchDtlInfo"><![CDATA[타이어 위치교체|10000|0|2|130000|타이어의 규칙적인 마모를 유지하기 위해 실시하며, 스티어링 핸들의 떨림이나 진동이 발생되어,차량의 조향성 및 안전성에 영향을 줄 수 있습니다.타이어 공기압이 적당하지 않으면 타이어도 운전자 만큼 피로를 느끼고 있을 것 입니다. 타이어 공기는 주행중 약간씩 빠지므로 주기적으로 점검해야 합니다. 만약 공기압에 대하여 전혀 지식이 없다면 취급설명서를 보십시오.  그 곳에 해당 차량의 타이어 공기압이 PSI 단위로 표시 되어 있습니다. 타이어와 노면의 접지상태를 보고 공기압이 적당한지 확인합니다.  고속도로를 주행할 경우는 공기압을 20% 정도 더 넣습니다. 만약 타이어에 손상이 있다면 매우 위험한 상황을 맞게 될 수도 있으므로 수시로  타이어 손상 여부도 점검해야 합니다. ▷ 타이어의 접지면에 이물질이 끼었는지, 또는 옆면에 손상이 있는지 확인합니다. ▷ 타이어에는 트레드의 마모 한계를 나타내는 마모 한계 표시가 있으며, 타이어 옆면에 ▲ 또는 △표시방향의 홈속에 볼록 솟은 부분을 가르킵니다. ▷ 이 부분이 마모 한계이므로 이것이 나타나면 교환해야 합니다. ※ 타이어의 트레드가 과도하게 마모된 경우에는 제동력이 떨어지며 커브를 돌 때 조종성과 안정성을 잃게 되어 사고의 위험이 크므로 적정시기에 반드시 교환해야 합니다. 타이어의 편마모를 방지하고 수명을 연장 시키기 위해서는 그림과 같은 순서로 타이어 위치를 주기적으로 교환 하십시오.|GODS_0012.jpg]]></e>
+			<e id="exchSbc"><![CDATA[타이어의 규칙적인 마모를 유지하기 위해 실시하며, 스티어링 핸들의 떨림이나 진동이 발생되어,차량의 조향성 및 안전성에 영향을 줄 수 있습니다.타이어 공기압이 적당하지 않으면 타이어도 운전자 만큼 피로를 느끼고 있을 것 입니다. 타이어 공기는 주행중 약간씩 빠지므로 주기적으로 점검해야 합니다. 만약 공기압에 대하여 전혀 지식이 없다면 취급설명서를 보십시오.  그 곳에 해당 차량의 타이어 공기압이 PSI 단위로 표시 되어 있습니다. 타이어와 노면의 접지상태를 보고 공기압이 적당한지 확인합니다.  고속도로를 주행할 경우는 공기압을 20% 정도 더 넣습니다. 만약 타이어에 손상이 있다면 매우 위험한 상황을 맞게 될 수도 있으므로 수시로  타이어 손상 여부도 점검해야 합니다. ▷ 타이어의 접지면에 이물질이 끼었는지, 또는 옆면에 손상이 있는지 확인합니다. ▷ 타이어에는 트레드의 마모 한계를 나타내는 마모 한계 표시가 있으며, 타이어 옆면에 ▲ 또는 △표시방향의 홈속에 볼록 솟은 부분을 가르킵니다. ▷ 이 부분이 마모 한계이므로 이것이 나타나면 교환해야 합니다. ※ 타이어의 트레드가 과도하게 마모된 경우에는 제동력이 떨어지며 커브를 돌 때 조종성과 안정성을 잃게 되어 사고의 위험이 크므로 적정시기에 반드시 교환해야 합니다. 타이어의 편마모를 방지하고 수명을 연장 시키기 위해서는 그림과 같은 순서로 타이어 위치를 주기적으로 교환 하십시오.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="12">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0013]]></e>
+			<e id="cccm1CdNm"><![CDATA[타이밍 벨트]]></e>
+			<e id="pic1Dist"><![CDATA[0]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[타이밍 벨트|0|0|0|0|밸트가 끊어지기 전까지 특별한 이상 증세는 발생되지 않으나 밸트가 끊어질 경우 엔진 피스톤과 흡/배기 밸브의 간섭 발생으로 실린더 헤드, 흡배기 밸브, 피스톤 등 엔진 주요 부위등의 손상이 발생되며 엔진 시동이 꺼질 수 있습니다. 타이밍 벨트(Timing Belt)는 크랭크 샤프트에 장착되어 있는 타이밍 기어와 캠 샤프트의 타이밍 기어를 연결하는 벨트로서 오일 펌프 등 보조기기의 구동에도 사용된다. 엔진 타이밍 벨트는 엔진 타이밍벨트 커버 내부에 장착되어 육안으로는 확인이 불가능합니다. 주행 중에 끊어지면 시동이 불가능하며, 피스톤과 밸브가 부딪혀 엔진 내부가 파손되는 중대한 결함을 일으킵니다. 매 40,000km주행시 마다 점검하고, 매 80,000km 주행시마다 교환하십시오.|GODS_0013.jpg]]></e>
+			<e id="exchSbc"><![CDATA[밸트가 끊어지기 전까지 특별한 이상 증세는 발생되지 않으나 밸트가 끊어질 경우 엔진 피스톤과 흡/배기 밸브의 간섭 발생으로 실린더 헤드, 흡배기 밸브, 피스톤 등 엔진 주요 부위등의 손상이 발생되며 엔진 시동이 꺼질 수 있습니다. 타이밍 벨트(Timing Belt)는 크랭크 샤프트에 장착되어 있는 타이밍 기어와 캠 샤프트의 타이밍 기어를 연결하는 벨트로서 오일 펌프 등 보조기기의 구동에도 사용된다. 엔진 타이밍 벨트는 엔진 타이밍벨트 커버 내부에 장착되어 육안으로는 확인이 불가능합니다. 주행 중에 끊어지면 시동이 불가능하며, 피스톤과 밸브가 부딪혀 엔진 내부가 파손되는 중대한 결함을 일으킵니다. 매 40,000km주행시 마다 점검하고, 매 80,000km 주행시마다 교환하십시오.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="13">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0014]]></e>
+			<e id="cccm1CdNm"><![CDATA[구동벨트]]></e>
+			<e id="pic1Dist"><![CDATA[0]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[구동벨트|0|0|0|0|바꿀시기에 일어나는 현상 - 장기간 미 점검으로 장력이 느슨해진 경우 냉간 시동시 '삐이익~'소음 발생 및 발전기와 워터펌프의 구동능력을 저하시켜 발전 능력 저하 및 엔진 과열 등을 초래할 수 있으며 반대로 장력이 너무 큰 경우 발전기와 워터펌프 베어링이 과도한 부하로 손상될 수 있습니다.팬밸트는 파워 스티어링 펌프와 발전기, 에이컨 컴프레셔 등을 구동하도록 되어있습니다. 벨트 장력은 점검 후 느슨하면 조절해줘야 하는 방식과 자동 텐셔너에 의해 자동으로 장력이 조절되는 방식이 있으며 벨트의 장력이 약해지면 소음이 발생되고 벨트의 손상과 함께 수명이 단축되므로 정기적으로 장력을 점검하고 조정을 하셔야 합니다.|GODS_0014.jpg]]></e>
+			<e id="exchSbc"><![CDATA[바꿀시기에 일어나는 현상 - 장기간 미 점검으로 장력이 느슨해진 경우 냉간 시동시 '삐이익~'소음 발생 및 발전기와 워터펌프의 구동능력을 저하시켜 발전 능력 저하 및 엔진 과열 등을 초래할 수 있으며 반대로 장력이 너무 큰 경우 발전기와 워터펌프 베어링이 과도한 부하로 손상될 수 있습니다.팬밸트는 파워 스티어링 펌프와 발전기, 에이컨 컴프레셔 등을 구동하도록 되어있습니다. 벨트 장력은 점검 후 느슨하면 조절해줘야 하는 방식과 자동 텐셔너에 의해 자동으로 장력이 조절되는 방식이 있으며 벨트의 장력이 약해지면 소음이 발생되고 벨트의 손상과 함께 수명이 단축되므로 정기적으로 장력을 점검하고 조정을 하셔야 합니다.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+		<i id="14">
+			<e id="inetMbrId"><![CDATA[]]>
+			</e>
+			<e id="vin"><![CDATA[]]>
+			</e>
+			<e id="cccm1Cd"><![CDATA[0015]]></e>
+			<e id="cccm1CdNm"><![CDATA[수동변속기 오일]]></e>
+			<e id="pic1Dist"><![CDATA[0]]></e>
+			<e id="crerId"><![CDATA[]]>
+			</e>
+			<e id="creDtm"><![CDATA[]]>
+			</e>
+			<e id="finUpdrId"><![CDATA[]]>
+			</e>
+			<e id="finMdfyDtm"><![CDATA[]]>
+			</e>
+			<e id="itcgCyclScnCd"><![CDATA[1]]></e>
+			<e id="itcgCyclScnCdNm"><![CDATA[]]>
+			</e>
+			<e id="lastPic1Dist"><![CDATA[0]]></e>
+			<e id="promotePic1Dist"><![CDATA[0]]></e>
+			<e id="exchInfo"><![CDATA[0]]></e>
+			<e id="exchDtlInfo"><![CDATA[수동변속기 오일|0|0|0|0|수동변속기 오일은 일반적으로 10만 km 마다 점검하며 가혹조건 등 필요시에만 보충, 교환하도록 되어 있으나차종에 따라 매 10만km 마다 교환하는 경우도 있습니다.수동변속기 오일의 점검 및 보충은 별도의 시설과 장비가 필요하므로 지정 정비업소에 문의해 주시기 바랍니다.|GODS_0015.jpg]]></e>
+			<e id="exchSbc"><![CDATA[수동변속기 오일은 일반적으로 10만 km 마다 점검하며 가혹조건 등 필요시에만 보충, 교환하도록 되어 있으나차종에 따라 매 10만km 마다 교환하는 경우도 있습니다.수동변속기 오일의 점검 및 보충은 별도의 시설과 장비가 필요하므로 지정 정비업소에 문의해 주시기 바랍니다.]]></e>
+			<e id="exchImg"><![CDATA[]]>
+			</e>
+			<e id="exchImgPathAdr"><![CDATA[]]>
+			</e>
+			<e id="exchImgFilNm"><![CDATA[]]>
+			</e>
+			<e id="pic1Dists"></e>
+			<e id="cccm1Cds"></e>
+			<e id="csmrNo"><![CDATA[]]>
+			</e>
+			<e id="userAddpic1Dists"></e>
+			<e id="userAddcccm1Cds"></e>
+			<e id="userAddcccm1Nms"></e>
+			<e id="userAddcccm1Cd"></e>
+			<e id="ceqPrvsScnCd"><![CDATA[]]>
+			</e>
+			<e id="mgmtPrvsCd"><![CDATA[]]>
+			</e>
+			<e id="serialVersionUID"><![CDATA[6967863197284175391]]></e>
+			<e id="userInsertcccm1Nms"></e>
+			<e id="userInsertpic1Dists"></e>
+			<e id="ckbUnqNo"><![CDATA[0.0]]></e>
+			<e id="userEditcccm1Cds"></e>
+			<e id="userAddexchSbc"></e>
+			<e id="godsExChInfoAlarmCdt"><![CDATA[]]>
+			</e>
+		</i>
+	</l>
+	<i id="TrvgDistHisDdto">
+		<e id="vin"><![CDATA[]]>
+		</e>
+		<e id="csmrNo"><![CDATA[]]>
+		</e>
+		<e id="crtnDt"><![CDATA[2009-09-02]]></e>
+		<e id="crtnKoDt"><![CDATA[]]>
+		</e>
+		<e id="crtnStDt"><![CDATA[]]>
+		</e>
+		<e id="trvgDist"><![CDATA[130000]]></e>
+		<e id="rgstMbdCd"><![CDATA[]]>
+		</e>
+		<e id="rgstMbdNm"><![CDATA[]]>
+		</e>
+		<e id="rgstDt"><![CDATA[]]>
+		</e>
+		<e id="rgnEeno"><![CDATA[]]>
+		</e>
+		<e id="altrDt"><![CDATA[]]>
+		</e>
+		<e id="chgrEeno"><![CDATA[]]>
+		</e>
+		<e id="crtnDtInYn"><![CDATA[]]>
+		</e>
+	</i>
+</d>
